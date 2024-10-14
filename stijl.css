@@ -29,7 +29,7 @@ nav div {
 
 .nav-links a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 14pt;
 }
 nav {
@@ -44,4 +44,11 @@ nav div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sign-in {
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
