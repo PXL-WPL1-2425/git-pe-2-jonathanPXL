@@ -10,3 +10,38 @@ nav div {
 .nav-left img {
     width: 100px;
 }
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
